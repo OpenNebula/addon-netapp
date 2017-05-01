@@ -1,4 +1,4 @@
-# OpenNebula NetApp Drivers
+# OpenNebula NetAPP Drivers
 
 These drivers are based on the OpenNebula shared drivers with the following differences:
 
@@ -7,7 +7,7 @@ These drivers are based on the OpenNebula shared drivers with the following diff
 **TODO:**
 
 * Verify the RESIZE feature.
-* Use NetApp operation for disk snapshots
+* Use NetAPP operation for disk snapshots
 
 ### Checkout the code
 
@@ -49,7 +49,7 @@ You will need to restart OpenNebula after this change.
 You will need to add the following parameters to your image datastore template:
 
 * `NETAPP_HOST`: The frontend will ssh from the oneadmin account to this host. Make sure the passwordless ssh is configured.
-* `NETAPP_VOLUME`: The name of the NetApp volumen on which it will operate through ssh.
+* `NETAPP_VOLUME`: The name of the NetAPP volumes on which it will operate through ssh.
 * `NETAPP_PATH`: The path of `/var/lib/one/datastore` as seen from the NetApp.
 * `TM_MAD`: It must be `netapp`
 
